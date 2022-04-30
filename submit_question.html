@@ -1,0 +1,69 @@
+<html>
+  <head>
+  
+    <script src="/submit_question.js"></script>
+	<link rel='stylesheet' href='main.css'></link>
+
+	
+  </head>
+  <body>
+    <p>
+      Mockup for Office Hours Categories
+    </p>
+ <!--
+	 <div id='category-button-container'>
+	   <input type='button' value='HW 1 Q1'></input>
+	   <input type='button' value='HW 1 Q2'></input>
+	   <input type='button' value='HW 1 Q3'></input>
+	   <input type='button' value='HW 1 Q4'></input>
+	   <button id="add-button">Debug</button>
+	 </div>
+-->
+	 <br>
+	 <div id = 'category-drop-down-container'>
+		<label for="categories">Choose a category:</label>
+
+		<select name="categories" id="categories">
+		  <option value = "1">HW 1 Q1</option>
+		  <option value = "2">HW 1 Q2</option>
+		  <option value = "3">HW 1 Q3</option>
+		  <option value = "4">HW 1 Q4</option>
+		  <option value = "5">Debug</option>
+		</select>
+	 
+	 </div>
+
+	<div id = 'name-container' >
+		<p>Name</p>
+		<input type='text' id='name-text-input'></input>
+	 </div> 
+
+	<div id = 'question-container' >
+		<p>Question</p>
+		<textarea id='question-text-area'></textarea>
+	 </div> 
+	 
+	 <div id = 'description-container' >
+		<p>Description</p>
+		<textarea id='description-text-area'></textarea>
+	 </div> 
+
+	<p></p>
+
+	 <div id='button-container'>
+	   <button id="submit-button">Submit</button>
+	 </div>
+	 
+	 <!-- CONTAINER FOR TESTING, NOT FOR FINAL ITERATION -->
+	 <div id='test-container'>
+		<p id='test-text'></p>
+	 </div>
+
+  </body>
+</html>
+
+<!-- 
+applies CSS styles, later style sheets will overright, and then anything in JS will 
+supercede what is in the stylesheets
+
+-->

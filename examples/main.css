@@ -1,0 +1,45 @@
+p {
+	/*
+	* List of properties. Each property is of the form:
+	* property-name, ":", property value, ";"
+	*/
+		font-family:"Roboto", Helvetica, Arial, sans-serif;
+		/*font-weight: bold;*/
+		background-color: lightgreen;
+		color: brown;
+		line-height: 1.7em
+	}
+/*
+* WHich rule will have precedenece in applies to the element?
+* Specificity: Google search for this word if you want to know more
+* [ids] > [class-names] > [tag names]
+* BUT you can also lits nested tag names and IDs and tage names iwth IDs 
+* and and nad many comindations. the more information that you give in a 
+* selector the more likely it is to have precesedence. 
+*/
+#second-paragraph {
+	color: blue;
+}
+body {
+	background-color: crimson;
+} 
+
+.CodeMirror {
+  border: 1px solid #eee;
+  height: 100px;
+  width: 300px;
+  font-family: 'Lucida Console';
+  border-width: 1px;
+  border-color: black;
+}
+
+.code-editor-container-class{
+	width: 302px;
+	position: absolute;
+}
+
+.code-editor-handle-class{
+	height:20px;
+	background-color: black;
+}
+

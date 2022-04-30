@@ -1,0 +1,26 @@
+<html>
+<head>
+
+<!-- Load the Paper.js library -->
+<script type="text/javascript" src="lib/paper-full.js"></script>
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/paperscript" src="/multipaint.js" canvas="myCanvas">
+
+</script>
+
+</head>
+<body>
+<p>
+Hello. This is the multipaint app.
+</p>
+<canvas id="myCanvas" resize></canvas>
+
+<div>
+<label for="name">Type message:</label>
+
+<input type="text" id="msg" name="msg" required
+       minlength="4" maxlength="38" size="40">
+<button id='send-button'>Send</button>
+</div>
+</body>
+</html>
